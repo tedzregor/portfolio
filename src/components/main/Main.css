@@ -1,0 +1,136 @@
+header {
+    margin:0 ;
+    padding: 0;
+    background-image: url(../../assets/images/laptop.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    max-height: 100vh;
+}
+
+.Greeting {
+    display: flex;
+    flex-direction: column;
+  }
+  
+.Const {
+    margin: 12rem 0 0 8rem;
+    font-size: 4rem;
+    color: #fff;
+    opacity: 0.7;
+}
+  
+.GreetingContent {
+    font-size: 4.2rem;
+    color: #fff;
+    opacity: 0.8;
+    margin-left: 14rem;
+}
+
+.Braces {
+    margin: 1rem 0 6rem 8rem;
+    font-size: 4rem;
+    color: #fff;
+    opacity: 0.7;
+}
+  
+.Stick {
+    animation: move 1s infinite;
+}
+
+button {
+  width: 12rem;
+  padding: 1rem;
+  margin: 4rem 0 4rem 0;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  border-radius: 2.5rem;
+  font-family: "Josefin Sans", sans-serif;
+  color: #eee;
+  box-shadow: 0.5rem 0.5rem 2rem rgba(0, 0, 0, 0.4);
+  cursor: pointer;
+  position: absolute;
+  top: 75%;
+  left: 50%;
+  transition: transform 0.5s;
+  transform: translate(-50%, -50%);
+}
+
+button:hover {
+  transform-origin: center;
+  animation: buttonRotation 2s 1s linear;
+}
+  
+@keyframes move {
+    0% {
+      opacity: 1;
+    }
+  
+    100% {
+      opacity: 0;
+    }
+}
+  
+@media (max-width: 800px) {
+    .Const {
+      font-size: 3.5rem;
+    }
+    .GreetingContent {
+      font-size: 3.7rem;
+    }
+    .Braces {
+      font-size: 3.5rem;
+    }
+}
+  
+@media (max-width: 740px) {
+    .Const {
+      font-size: 3rem;
+    }
+    .GreetingContent {
+      font-size: 3.2rem;
+    }
+    .Braces {
+      font-size: 3rem;
+    }
+}
+  
+@media (max-width: 650px) {
+    .Const {
+      font-size: 2.5rem;
+    }
+    .GreetingContent {
+      font-size: 2.7rem;
+    }
+    .Braces {
+      font-size: 2.5rem;
+    }
+}
+  
+@media (max-width: 575px) {
+    .Const {
+      font-size: 2rem;
+    }
+    .GreetingContent {
+      font-size: 2.2rem;
+      margin-left: 12rem;
+    }
+    .Braces {
+      font-size: 2rem;
+    }
+}
+  
+@media (max-width: 500px) {
+    .Const {
+      font-size: 1.8rem;
+    }
+    .GreetingContent {
+      font-size: 2rem;
+      margin-left: 10rem;
+    }
+    .Braces {
+      font-size: 1.5rem;
+    }
+}
+  
