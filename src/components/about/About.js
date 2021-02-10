@@ -25,8 +25,8 @@ const About = () => {
             </span>
             <p className="AboutContent" style={classes.Description}>
               Hi! Im Ted who raised in Philippines Metro Manila. 
-              After running and managing my small business internet-cafe for almost 3 years in Philippines, 
-              I decided to go back on track to try new challenge and become a web developer in global fields.
+              I own and manage small internet-cafe business for a living in Philippines.
+              I want to step up and decided to go back on track and embrace challenges to become a full-stack developer someday in global fields.
             </p>
           </div>
           <div>
@@ -47,6 +47,20 @@ const About = () => {
               </a>{" "}
               / Software Developer - Ortigas Pasig City Philippines <br />
             </p>
+            <p className="AboutContent" style={classes.Description}>
+              April 2019 - October 2019
+              <a
+                href="https://reekoh.com/"
+                rel="noreferrer noopener"
+                target="_blank"
+                alt="REE"
+                style={{ color: "#888888" }}
+              >
+                {" "}
+                REEKOH Inc.{" "}
+              </a>{" "}
+              / Jr. Software Engineer - Paseo De Roxas Makati City Philippines <br />
+            </p>
           </div>
           <div>
             <span className="Label" style={classes.Label}>
@@ -58,10 +72,10 @@ const About = () => {
           </div>
           <div>
             <span className="Label" style={classes.Label}>
-              Like
+              Likes
             </span>
             <p className="AboutContent" style={classes.Description}>
-              Udemy Tutorials, Coffee, Chess, Technology, Dota2, Music.
+              Udemy, Coffee, Technology, Music - Alle Menschen werden Brüder.. (ode to joy).
             </p>
           </div>
         </div>

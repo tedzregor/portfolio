@@ -67,7 +67,7 @@ const main = () => {
                </span>
                </h2>
            </Typist>
-          <button type="button"><a href="#about">DOWN<i className="fa fa-arrow-down" aria-hidden="true"></i></a></button>
+          <button type="button"><a href="#about">INFO<i className="fa fa-arrow-down" aria-hidden="true"></i></a></button>
         </header>
     );
 }
