@@ -26,7 +26,7 @@ const About = () => {
             <p className="AboutContent" style={classes.Description}>
               Hi! Im Ted who raised in Philippines Metro Manila. 
               I own and manage small internet-cafe business for a living in Philippines.
-              I want to step up and decided to go back on track and embrace challenges to become a full-stack developer someday in global fields.
+              I want to step up to go back on track and embrace challenges to become a full-stack developer someday in global fields.
             </p>
           </div>
           <div>
@@ -43,7 +43,7 @@ const About = () => {
                 style={{ color: "#888888" }}
               >
                 {" "}
-                Smart And Sense Infotech Inc.{" "}
+                / Smart And Sense Infotech Inc.{" "}
               </a>{" "}
               / Software Developer - Ortigas Pasig City Philippines <br />
             </p>
@@ -57,7 +57,7 @@ const About = () => {
                 style={{ color: "#888888" }}
               >
                 {" "}
-                REEKOH Inc.{" "}
+                / REEKOH Inc.{" "}
               </a>{" "}
               / Jr. Software Engineer - Paseo De Roxas Makati City Philippines <br />
             </p>
@@ -76,6 +76,14 @@ const About = () => {
             </span>
             <p className="AboutContent" style={classes.Description}>
               Udemy, Coffee, Technology, Music - Alle Menschen werden Brüder.. (ode to joy).
+            </p>
+          </div>
+          <div>
+            <span className="Label" style={classes.Label}>
+              Motto
+            </span>
+            <p className="AboutContent" style={classes.Description}>
+              "Humility comes wisdom."
             </p>
           </div>
         </div>

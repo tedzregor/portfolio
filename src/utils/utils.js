@@ -7,7 +7,29 @@ import sit_family from "../assets/images/sit_family.jpg"
 import sit_dinner from "../assets/images/sit_dinner.jpg"
 import sit_id from "../assets/images/sit_id.jpg"
 
+import reekoh from "../assets/images/reekoh.jpg"
+import cert_emp from "../assets/images/cert.png"
+import my_icafe from "../assets/images/my_icafe.jpg"
+
+import reekoh_meeting from "../assets/images/reekoh_meeting.jpg"
+import reekoh_meeting2 from "../assets/images/reekoh_meeting2.jpg"
+import reekoh_group from "../assets/images/reekoh_group.jpg"
+
+
+
 export const imgs = [
+    {
+      image: reekoh_meeting,
+      details: "My Smart and Sense Family"
+    },
+    {
+      image: reekoh_meeting2,
+      details: "My Smart and Sense Family"
+    },
+    {
+      image: reekoh_group,
+      details: "My Smart and Sense Family"
+    },
     {
       image: sit_family,
       details: "My Smart and Sense Family"
@@ -19,6 +41,19 @@ export const imgs = [
     {
       image: sit_id,
       details: "My first professional ID."
+    },
+    {
+      image: reekoh,
+      details: "reekoh with team."
+    }
+    ,
+    {
+      image: cert_emp,
+      details: "reekoh certificate"
+    },
+    {
+      image: my_icafe,
+      details: "my internet cafe"
     }
 ]
 

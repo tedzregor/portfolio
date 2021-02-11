@@ -1,12 +1,9 @@
 import React from 'react';
 import Swiper from 'react-id-swiper';
 import './photo.css'
-import sit_family from "../../assets/images/sit_family.jpg"
-import sit_dinner from "../../assets/images/sit_dinner.jpg"
-import sit_id from "../../assets/images/sit_id.jpg"
-import reekoh from "../../assets/images/reekoh.jpg"
-import cert_emp from "../../assets/images/cert.png"
-import my_icafe from "../../assets/images/my_icafe.jpg"
+import {imgs as img} from "../../utils/utils"
+
+  const imageVal = img;
 
   const Photos = () => {
     const params = {
@@ -14,10 +11,10 @@ import my_icafe from "../../assets/images/my_icafe.jpg"
         slidesPerView: 3,
         spaceBetween: 100,
         freeMode: true,
-        // autoplay: {
-        //     delay: 2500,
-        //     disableOnInteraction: false
-        //   },
+        autoplay: {
+             delay: 3500,
+             disableOnInteraction: false
+           },
         navigation: {
             nextEl: '.swiper-button-next',
             prevEl: '.swiper-button-prev'
@@ -26,31 +23,34 @@ import my_icafe from "../../assets/images/my_icafe.jpg"
           el: '.swiper-pagination',
           clickable: true,
         },
+        loop: true,
+        zoom: true,
+     
       } 
+
+    return (
+        <div className='div-pad'> 
+            <Swiper {...params}>
+                {imageVal.map((value,index) => (
+                        <div key={index}
+                        className="swiper-slide" 
+                        style=
+                            {{
+                                backgroundImage:`url(${value.image})`,
+                                backgroundRepeat:"no-repeat",
+                                backgroundPosition: "center",
+                                backgroundSize: "Contain",
+                            }}
+                        >
+                        </div>
+                    ))
+                }
+            </Swiper>
+        </div>
+    )
+
     
-    /* 
-    import { imgs } from "../../utils/utils"
-    I still have issue with dynamic Swiper, Temporarily will do it static
-    return  <Swiper {...params} > {imgs.map((img, index) => {
-        return (
-            <div key={index}
-                className="swiper-slide" 
-                style=
-                    {{
-                        backgroundImage:`url(${img.image})`,
-                        backgroundRepeat:"no-repeat",
-                        backgroundPosition: "center",
-                        backgroundSize: "Contain",
-                    }}
-            >
-            </div>
-        )
-        })
-    }
-    </Swiper>
-    */
-    
-    // Static 
+    /* // Static 
     return (
     <div className='div-pad'>
       <Swiper {...params}>
@@ -58,7 +58,7 @@ import my_icafe from "../../assets/images/my_icafe.jpg"
             className="swiper-slide" 
             style=
                 {{
-                    backgroundImage:`url(${sit_family})`,
+                    backgroundImage:`url(${img[0].image})`,
                     backgroundRepeat:"no-repeat",
                     backgroundPosition: "center",
                     backgroundSize: "Contain",
@@ -123,5 +123,6 @@ import my_icafe from "../../assets/images/my_icafe.jpg"
   </Swiper>
   </div>
     )
+    */
   };
   export default Photos;
