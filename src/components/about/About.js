@@ -25,8 +25,8 @@ const About = () => {
             </span>
             <p className="AboutContent" style={classes.Description}>
               Hi! Im Ted who raised in Philippines Metro Manila. 
-              I own and manage small internet-cafe business for a living in Philippines.
-              I want to step up to go back on track and embrace challenges to become a full-stack developer someday in global fields.
+              Experienced Junior Software Engineer with a demonstrated history of working in the software development industry.
+              I want to step up and embrace challenges to become a full-stack developer someday in global fields.
             </p>
           </div>
           <div>
@@ -34,21 +34,33 @@ const About = () => {
               Work Experience
             </span>
             <p className="AboutContent" style={classes.Description}>
-              July 2017 - July 2018
+            <a
+                href="https://digipay.ph/"
+                rel="noreferrer noopener"
+                target="_blank"
+                alt="SIT"
+                style={{ color: "#888888" }}
+              > DIGIPAY /{" "} </a>
               <a
-                href="https://sensenit.com/"
+                href="https://digipay.ph/"
                 rel="noreferrer noopener"
                 target="_blank"
                 alt="SIT"
                 style={{ color: "#888888" }}
               >
                 {" "}
-                / Smart And Sense Infotech Inc.{" "}
+              Software Developer - Mandaluyong City Philippines /
               </a>{" "}
-              / Software Developer - Ortigas Pasig City Philippines <br />
+              July 2021 - Present <br />
             </p>
             <p className="AboutContent" style={classes.Description}>
-              April 2019 - October 2019
+            <a
+                href="https://reekoh.com/"
+                rel="noreferrer noopener"
+                target="_blank"
+                alt="SIT"
+                style={{ color: "#888888" }}
+              > REEKOH Inc. /{" "} </a>
               <a
                 href="https://reekoh.com/"
                 rel="noreferrer noopener"
@@ -57,9 +69,29 @@ const About = () => {
                 style={{ color: "#888888" }}
               >
                 {" "}
-                / REEKOH Inc.{" "}
+               Jr. Software Engineer - Makati City Philippines /
               </a>{" "}
-              / Jr. Software Engineer - Paseo De Roxas Makati City Philippines <br />
+              April 2019 - October 2019<br />
+            </p>
+            <p className="AboutContent" style={classes.Description}>
+            <a
+                href="https://sensenit.com/"
+                rel="noreferrer noopener"
+                target="_blank"
+                alt="SIT"
+                style={{ color: "#888888" }}
+              >Smart And Sense Infotech Inc. /{" "} </a>
+              <a
+                href="https://sensenit.com/"
+                rel="noreferrer noopener"
+                target="_blank"
+                alt="SIT"
+                style={{ color: "#888888" }}
+              >
+                {" "}
+               Software Developer - Ortigas Pasig City Philippines /
+              </a>{" "}
+              July 2017 - July 2018 <br />
             </p>
           </div>
           <div>
