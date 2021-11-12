@@ -99,7 +99,7 @@ export const works = [
     },
     {
       icon: "fab fa-js",
-      skill: "JavaScript",
+      skill: "JQuery",
       color: "#E9D64D",
       level: 2
     },
@@ -164,12 +164,12 @@ export const works = [
       color: "#315F8E",
       level: 2
     },
-    {
-      icon: "fab fa-envira",
-      skill: "MongoDB",
-      color: "#4AA93C",
-      level: 3
-    },
+    //{
+    //   icon: "fab fa-envira",
+    //   skill: "MongoDB",
+    //   color: "#4AA93C",
+    //   level: 3
+    // },
     {
       icon: "fab fa-java",
       skill: "JavaSE",
@@ -184,7 +184,7 @@ export const works = [
     },
     {
       icon: "fab fa-php",
-      skill: "PHP-CI",
+      skill: "PHP-Laravel",
       color: "#315F8E",
       level: 2
     }

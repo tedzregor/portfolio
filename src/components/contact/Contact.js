@@ -18,7 +18,7 @@ const Contact = () => {
       </div>
       <div className="Footer" style={classes.Footer}>
         <p className="Copyright" style={classes.Copyright}>
-          ©Teddy Dumagat 2020-2020 All rights reserved.
+          ©Teddy Dumagat 2021-2022 All rights reserved.
         </p>
       </div>
     </section>

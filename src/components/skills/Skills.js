@@ -4,7 +4,7 @@ import { frontEnd, backEnd, infrastructure, others } from "../../utils/utils";
 
 class Skills extends Component {
   state = {
-    field: frontEnd
+    field: backEnd
   };
 
   renderSkills = () => {
@@ -26,11 +26,11 @@ class Skills extends Component {
             {skill.skill}
           </p>
           {skill.level === 1 ? (
-            <p>Speciality</p>
+            <p></p>
           ) : skill.level === 2 ? (
-            <p>I know</p>
+            <p></p>
           ) : (
-            <p>Studying now</p>
+            <p></p>
           )}
         </div>
       );
@@ -40,10 +40,10 @@ class Skills extends Component {
   handleClick = field => {
     switch (field) {
       case 0:
-        this.setState({ field: frontEnd });
+        this.setState({ field: backEnd });
         break;
       case 1:
-        this.setState({ field: backEnd });
+        this.setState({ field: frontEnd });
         break;
       case 2:
         this.setState({ field: infrastructure });
@@ -64,14 +64,14 @@ class Skills extends Component {
             style={classes.field}
             onClick={() => this.handleClick(0)}
           >
-            Frontend
+            Backend
           </div>
           <div
             className="Field Field-2"
             style={classes.field}
             onClick={() => this.handleClick(1)}
           >
-            Backend
+            Frontend
           </div>
           <div
             className="Field Field-3"

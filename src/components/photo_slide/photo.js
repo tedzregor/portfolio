@@ -4,7 +4,6 @@ import './photo.css'
 import {imgs as img} from "../../utils/utils"
 
   const imageVal = img;
-
   const Photos = () => {
     const params = {
         effect: 'coverflow',
@@ -48,81 +47,5 @@ import {imgs as img} from "../../utils/utils"
             </Swiper>
         </div>
     )
-
-    
-    /* // Static 
-    return (
-    <div className='div-pad'>
-      <Swiper {...params}>
-        <div 
-            className="swiper-slide" 
-            style=
-                {{
-                    backgroundImage:`url(${img[0].image})`,
-                    backgroundRepeat:"no-repeat",
-                    backgroundPosition: "center",
-                    backgroundSize: "Contain",
-                }}
-        >
-        </div>
-        <div 
-            className="swiper-slide" 
-            style=
-                {{
-                    backgroundImage:`url(${sit_dinner})`,
-                    backgroundRepeat:"no-repeat",
-                    backgroundPosition: "center",
-                    backgroundSize: "Contain"
-                }}
-        >
-        </div>
-        <div 
-            className="swiper-slide" 
-            style=
-                {{
-                    backgroundImage:`url(${sit_id})`,
-                    backgroundRepeat:"no-repeat",
-                    backgroundPosition: "center",
-                    backgroundSize: "Contain"
-                }}
-        >
-        </div>
-        <div 
-            className="swiper-slide" 
-            style=
-                {{
-                    backgroundImage:`url(${reekoh})`,
-                    backgroundRepeat:"no-repeat",
-                    backgroundPosition: "center",
-                    backgroundSize: "Contain"
-                }}
-        >
-        </div>
-        <div 
-            className="swiper-slide" 
-            style=
-                {{
-                    backgroundImage:`url(${cert_emp})`,
-                    backgroundRepeat:"no-repeat",
-                    backgroundPosition: "center",
-                    backgroundSize: "Contain"
-                }}
-        >
-        </div>
-        <div 
-            className="swiper-slide" 
-            style=
-                {{
-                    backgroundImage:`url(${my_icafe})`,
-                    backgroundRepeat:"no-repeat",
-                    backgroundPosition: "center",
-                    backgroundSize: "Contain"
-                }}
-        >
-        </div>
-  </Swiper>
-  </div>
-    )
-    */
   };
   export default Photos;

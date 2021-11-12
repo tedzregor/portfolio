@@ -24,9 +24,7 @@ const About = () => {
               Introduction
             </span>
             <p className="AboutContent" style={classes.Description}>
-              Hi! Im Ted who raised in Philippines Metro Manila. 
-              Experienced Junior Software Engineer with a demonstrated history of working in the software development industry.
-              I want to step up and embrace challenges to become a full-stack developer someday in global fields.
+              Hi! Im Ted who raised in Philippines Metro Manila, experienced Junior Software Developer with a demonstrated history of working in the backend software development industry. I want to step up and embrace challenges to become a full-stack developer someday in global fields.
             </p>
           </div>
           <div>
@@ -107,7 +105,7 @@ const About = () => {
               Likes
             </span>
             <p className="AboutContent" style={classes.Description}>
-              Udemy, Coffee, Technology, Music - Alle Menschen werden Brüder.. (ode to joy).
+              Udemy, Coffee, Technology, Programming, Music, Dota2
             </p>
           </div>
           <div>
