@@ -8,7 +8,8 @@ import sit_dinner from "../assets/images/sit_dinner.jpg"
 import sit_id from "../assets/images/sit_id.jpg"
 
 import reekoh from "../assets/images/reekoh.jpg"
-import cert_emp from "../assets/images/cert.png"
+import cert_emp from "../assets/images/ztmcert.jpg"
+import udemy_cert from "../assets/images/cert.png"
 import my_icafe from "../assets/images/my_icafe.jpg"
 
 import reekoh_meeting from "../assets/images/reekoh_meeting.jpg"
@@ -16,8 +17,11 @@ import reekoh_meeting2 from "../assets/images/reekoh_meeting2.jpg"
 import reekoh_group from "../assets/images/reekoh_group.jpg"
 
 
-
 export const imgs = [
+    {
+      image: udemy_cert,
+      details: "Udemy Certification from ztm"
+    },
     {
       image: reekoh_meeting,
       details: "My Smart and Sense Family"
@@ -71,16 +75,16 @@ export const works = [
       name: "robofriends",
       link: "https://tedzregor.github.io/robofriends-redux/",
       about:
-        "robofriends is  React app with redux and it has robohash api integration.",
+        "robofriends is React app with redux and it has robohash api integration.",
       githublink: "https://github.com/tedzregor/robofriends-redux"
     },
     {
       image: facerecognitionbrain,
-      name: "facerecognitionbrain",
-      link: "https://ted-facerecognition.herokuapp.com/",
+      name: "smart-brain",
+      link: "https://smart-brain-ted.herokuapp.com/",
       about:
-        "facerecognitionbrain project is my first full-stack built by PERN stack (Postgresql, Express, React, NodeJS) with KnexJS deployed in heroku.",
-      githublink: "https://github.com/tedzregor/facerecognitionbrain"
+        "smart-brain project is my first web full-stack built by PERN (Postgresql, Express, React, NodeJS) with KnexJS deployed in heroku.",
+      githublink: "https://github.com/tedzregor/smart-brain"
     }
   ];
 

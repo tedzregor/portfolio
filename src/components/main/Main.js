@@ -38,7 +38,7 @@ const main = () => {
 	}} />
     </div>
            <Nav />
-           <Typist avgTypingDelay={70} startDelay={1500}>
+           <Typist avgTypingDelay={20} startDelay={1500}>
                <h2 className="Const" style={classes.Const}>
                {"WelcomeToMyPage = {"}
                </h2>
@@ -67,7 +67,7 @@ const main = () => {
                </span>
                </h2>
            </Typist>
-          <button type="button"><a href="#about"> HI !! :)<i className="fa fa-arrow-down" aria-hidden="true"></i></a></button>
+          <button type="button" className='b ph3 pv2 input-reset ba b--black bg-transparent grow pointer f6 dib'><a href="#about"> <i className="fa fa-arrow-down" aria-hidden="true"></i></a></button>
         </header>
     );
 }

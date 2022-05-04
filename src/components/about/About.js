@@ -1,6 +1,7 @@
 import React from 'react';
 import classes from "./about.css";
 import myImage from "../../assets/images/my_image.jpg";
+import udemyImage from "../../assets/images/udemy.png";
 
 const About = () => {
   return (
@@ -24,33 +25,13 @@ const About = () => {
               Introduction
             </span>
             <p className="AboutContent" style={classes.Description}>
-              Hi! Im Ted who raised in Philippines Metro Manila, experienced Junior Software Developer with a demonstrated history of working in the backend software development industry. I want to step up and embrace challenges to become a senior developer someday in global fields.
+              Hi! I'm Ted a Software Developer from Philippines, with demonstrated history of working in the backend software development industry. I want to step up and embrace challenges to learn more about the fast growing web technology and become a senior developer someday in global fields.
             </p>
           </div>
           <div>
             <span className="Label" style={classes.Label}>
               Work Experience
             </span>
-            <p className="AboutContent" style={classes.Description}>
-            <a
-                href="https://digipay.ph/"
-                rel="noreferrer noopener"
-                target="_blank"
-                alt="SIT"
-                style={{ color: "#888888" }}
-              > DIGIPAY /{" "} </a>
-              <a
-                href="https://digipay.ph/"
-                rel="noreferrer noopener"
-                target="_blank"
-                alt="SIT"
-                style={{ color: "#888888" }}
-              >
-                {" "}
-              Software Developer - Mandaluyong City Philippines /
-              </a>{" "}
-              July 2021 - Present <br />
-            </p>
             <p className="AboutContent" style={classes.Description}>
             <a
                 href="https://reekoh.com/"
@@ -97,24 +78,28 @@ const About = () => {
               Education
             </span>
             <p className="AboutContent" style={classes.Description}>
-              2013-2017 BS COMPUTER SCIENCE - New Era University, Central Ave Quezon City Philippines
+              2013-2017 BS COMPUTER SCIENCE - New Era University
             </p>
           </div>
           <div>
             <span className="Label" style={classes.Label}>
-              Likes
+              Certificate
             </span>
-            <p className="AboutContent" style={classes.Description}>
-              Udemy, Coffee, Technology, Programming, Music, Dota2
-            </p>
-          </div>
-          <div>
-            <span className="Label" style={classes.Label}>
-              Motto
-            </span>
-            <p className="AboutContent" style={classes.Description}>
-              "Humility comes wisdom."
-            </p>
+            <div className="UdemyContent" style={classes.Description}>
+              <img
+                src={udemyImage}
+                alt="udemy"
+                className="udemyImage"
+              />
+             <a
+                href="https://www.udemy.com/certificate/UC-f4017518-16ac-4f82-b772-a38e5e1f6192/"
+                rel="noreferrer noopener"
+                target="_blank"
+                alt="udemyImg"
+                style={{ color: "#6789b7", marginLeft: "10px", fontSize:"1.8rem" }}
+              > - The Complete Web Developer in 2022
+              </a>
+            </div>
           </div>
         </div>
       </div>
