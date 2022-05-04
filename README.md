@@ -24,5 +24,8 @@ Deployment to github pages<br />
 3. sudo git config --global user.email "your@email.com"
 4. sudo npm run deploy
 5. Get token from git hub for password. Settings > Developer Settings > Personal Access tokens.
+6. In case github pages not updating even published sucessfully try access the link below
+      https://tedzregor.github.io/portfolio/index.html
+   by adding the "index.html" at the end. it will work.
 
 # my-portfolio
