@@ -1,31 +1,35 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "5f26a7b1521ac96fa1a425757f44b388",
+    "revision": "577da50e848d155dc9e59e6671a7108c",
     "url": "/portfolio/index.html"
   },
   {
-    "revision": "63147aff8be5468b035f",
-    "url": "/portfolio/static/css/main.64d22cba.chunk.css"
+    "revision": "2d1b037059dba4b893ae",
+    "url": "/portfolio/static/css/2.036b41f9.chunk.css"
   },
   {
-    "revision": "a58ac41805e9543cece9",
-    "url": "/portfolio/static/js/2.660a1361.chunk.js"
+    "revision": "5185ba7bcd9a385c9b8e",
+    "url": "/portfolio/static/css/main.088df253.chunk.css"
+  },
+  {
+    "revision": "2d1b037059dba4b893ae",
+    "url": "/portfolio/static/js/2.2502a416.chunk.js"
   },
   {
     "revision": "c64c486544348f10a6d6c716950bc223",
-    "url": "/portfolio/static/js/2.660a1361.chunk.js.LICENSE.txt"
+    "url": "/portfolio/static/js/2.2502a416.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "63147aff8be5468b035f",
-    "url": "/portfolio/static/js/main.0802ecd2.chunk.js"
+    "revision": "5185ba7bcd9a385c9b8e",
+    "url": "/portfolio/static/js/main.d7818c83.chunk.js"
   },
   {
     "revision": "88fbd3d397ae3690d5f2",
     "url": "/portfolio/static/js/runtime-main.fb1b3dac.js"
   },
   {
-    "revision": "9f9464d171435a8d1cdb6be3016d589c",
-    "url": "/portfolio/static/media/Resume.9f9464d1.pdf"
+    "revision": "3eb92a48234820ea261fb0bac301c1ec",
+    "url": "/portfolio/static/media/Resume.3eb92a48.pdf"
   },
   {
     "revision": "30842f99bb2358f93aa1b6c014922aef",
@@ -92,7 +96,15 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/media/sit_id.1f393759.jpg"
   },
   {
+    "revision": "8f820e0485cf2bbde7dd4cce8d4bff9d",
+    "url": "/portfolio/static/media/udemy.8f820e04.png"
+  },
+  {
     "revision": "0df3baa36a21b273afd9c670cec2b04b",
     "url": "/portfolio/static/media/works.0df3baa3.jpg"
+  },
+  {
+    "revision": "feae1ba6fe2f18199413141e23410f58",
+    "url": "/portfolio/static/media/ztmcert.feae1ba6.jpg"
   }
 ]);
