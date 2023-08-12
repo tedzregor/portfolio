@@ -25,7 +25,7 @@ const About = () => {
               Introduction
             </span>
             <p className="AboutContent" style={classes.Description}>
-              Hi! I'm Ted a Software Developer from Philippines, with demonstrated history of working in the backend software development industry. I want to step up and embrace challenges to learn more about the fast growing web technology and become a senior developer someday in global fields.
+              Hi! I'm Ted a Software Developer from Philippines, with demonstrated history of working in the software development industry. I want to step up and embrace challenges to learn more about the fast growing web technology and become a senior developer someday in global fields.
             </p>
           </div>
           <div>
@@ -33,44 +33,64 @@ const About = () => {
               Work Experience
             </span>
             <p className="AboutContent" style={classes.Description}>
-            <a
-                href="https://reekoh.com/"
-                rel="noreferrer noopener"
-                target="_blank"
-                alt="SIT"
-                style={{ color: "#888888" }}
-              > REEKOH Inc. /{" "} </a>
               <a
-                href="https://reekoh.com/"
-                rel="noreferrer noopener"
-                target="_blank"
-                alt="REE"
-                style={{ color: "#888888" }}
-              >
-                {" "}
-               Jr. Software Engineer - Makati City Philippines /
-              </a>{" "}
-              April 2019 - October 2019<br />
+                  href="aeroworx asia"
+                  rel="noreferrer noopener"
+                  target="_blank"
+                  alt="SIT"
+                  style={{ color: "#888888" }}
+                >Aeroworx Asia. /{" "} </a>
+                <a
+                  href="https://sensenit.com/"
+                  rel="noreferrer noopener"
+                  target="_blank"
+                  alt="SIT"
+                  style={{ color: "#888888" }}
+                >
+                  {" "}
+                Web Developer - Malate Manila Philippines /
+                </a>{" "}
+                Feb 2022 - Mar 2023 <br />
             </p>
             <p className="AboutContent" style={classes.Description}>
-            <a
-                href="https://sensenit.com/"
-                rel="noreferrer noopener"
-                target="_blank"
-                alt="SIT"
-                style={{ color: "#888888" }}
-              >Smart And Sense Infotech Inc. /{" "} </a>
               <a
-                href="https://sensenit.com/"
-                rel="noreferrer noopener"
-                target="_blank"
-                alt="SIT"
-                style={{ color: "#888888" }}
-              >
-                {" "}
-               Software Developer - Ortigas Pasig City Philippines /
-              </a>{" "}
-              July 2017 - July 2018 <br />
+                  href="https://reekoh.com/"
+                  rel="noreferrer noopener"
+                  target="_blank"
+                  alt="SIT"
+                  style={{ color: "#888888" }}
+                > REEKOH Inc. /{" "} </a>
+                <a
+                  href="https://reekoh.com/"
+                  rel="noreferrer noopener"
+                  target="_blank"
+                  alt="REE"
+                  style={{ color: "#888888" }}
+                >
+                  {" "}
+                Jr. Software Engineer - Makati City Philippines /
+                </a>{" "}
+                Apr 2019 - Oct 2019<br />
+            </p>
+            <p className="AboutContent" style={classes.Description}>
+              <a
+                  href="https://sensenit.com/"
+                  rel="noreferrer noopener"
+                  target="_blank"
+                  alt="SIT"
+                  style={{ color: "#888888" }}
+                >Smart And Sense Infotech Inc. /{" "} </a>
+                <a
+                  href="https://sensenit.com/"
+                  rel="noreferrer noopener"
+                  target="_blank"
+                  alt="SIT"
+                  style={{ color: "#888888" }}
+                >
+                  {" "}
+                Software Developer - Ortigas Pasig City Philippines /
+                </a>{" "}
+                Jul 2017 - Jul 2018 <br />
             </p>
           </div>
           <div>

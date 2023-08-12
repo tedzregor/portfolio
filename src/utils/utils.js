@@ -1,8 +1,8 @@
 import myportfolio from "../assets/images/portfolio.png";
-import robofriends from "../assets/images/robofriends.png";
+import cardgenerator from "../assets/images/cardgenerator.jpg";
 import expressjs from "../assets/images/expressjs.svg";
 import facerecognitionbrain from "../assets/images/facerecognition.png";
-import resume from "../assets/Resume.pdf";
+import resume from "../assets/RESUME.pdf";
 import sit_family from "../assets/images/sit_family.jpg"
 import sit_dinner from "../assets/images/sit_dinner.jpg"
 import sit_id from "../assets/images/sit_id.jpg"
@@ -71,19 +71,19 @@ export const works = [
       githublink: "https://github.com/"
     },
     {
-      image: robofriends,
-      name: "robofriends",
-      link: "https://tedzregor.github.io/robofriends-redux/",
+      image: cardgenerator,
+      name: "Card Generator",
+      link: "https://tedzregor.github.io/card_generator/",
       about:
-        "robofriends is React app with redux and it has robohash api integration.",
-      githublink: "https://github.com/tedzregor/robofriends-redux"
+        "card-generator is a react app with third party API integration such as jsonplaceholder and robohash API.",
+      githublink: "https://github.com/tedzregor/card_generator"
     },
     {
       image: facerecognitionbrain,
-      name: "smart-brain",
+      name: "Face Recognition",
       link: "https://smart-brain-ted.herokuapp.com/",
       about:
-        "smart-brain project is my first web full-stack built by PERN (Postgresql, Express, React, NodeJS) with KnexJS deployed in heroku.",
+        "Face recognition built in React with backend NodeJS, Express and Mysql written fromn scratch with user login, ranking, and image face detection feature with the integration of machine learning face detection API. The Clarifai AI",
       githublink: "https://github.com/tedzregor/smart-brain"
     }
   ];
