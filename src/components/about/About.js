@@ -117,7 +117,20 @@ const About = () => {
                 target="_blank"
                 alt="udemyImg"
                 style={{ color: "#6789b7", marginLeft: "10px", fontSize:"1.8rem" }}
-              > - The Complete Web Developer in 2022
+              > - The Complete Web Developer in 2023 - Andrei Neagoie
+              </a> <br />
+              <img
+                src={udemyImage}
+                alt="udemy"
+                className="udemyImage"
+              />
+             <a
+                href="https://www.udemy.com/certificate/UC-5de6183e-ba7d-4e1a-9821-88c465f03ffa/"
+                rel="noreferrer noopener"
+                target="_blank"
+                alt="udemyImg"
+                style={{ color: "#6789b7", marginLeft: "10px", fontSize:"1.8rem" }}
+              > - The Complete Junior to Senior Web Developer Roadmap - Andrei Neagoie
               </a>
             </div>
           </div>
