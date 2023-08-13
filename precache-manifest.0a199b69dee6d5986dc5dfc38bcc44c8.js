@@ -1,35 +1,39 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "577da50e848d155dc9e59e6671a7108c",
+    "revision": "4c0a52abb0465b5a734a813f9cb8a7b4",
     "url": "/portfolio/index.html"
   },
   {
-    "revision": "2d1b037059dba4b893ae",
+    "revision": "aa27edd801de9d60aab4",
     "url": "/portfolio/static/css/2.036b41f9.chunk.css"
   },
   {
-    "revision": "5185ba7bcd9a385c9b8e",
-    "url": "/portfolio/static/css/main.088df253.chunk.css"
+    "revision": "b688d2d5771417e67af2",
+    "url": "/portfolio/static/css/main.a864764f.chunk.css"
   },
   {
-    "revision": "2d1b037059dba4b893ae",
-    "url": "/portfolio/static/js/2.2502a416.chunk.js"
+    "revision": "aa27edd801de9d60aab4",
+    "url": "/portfolio/static/js/2.2f1e6c23.chunk.js"
   },
   {
-    "revision": "c64c486544348f10a6d6c716950bc223",
-    "url": "/portfolio/static/js/2.2502a416.chunk.js.LICENSE.txt"
+    "revision": "a4880d77eef7b7859db5f2cce31ea0d3",
+    "url": "/portfolio/static/js/2.2f1e6c23.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "5185ba7bcd9a385c9b8e",
-    "url": "/portfolio/static/js/main.d7818c83.chunk.js"
+    "revision": "b688d2d5771417e67af2",
+    "url": "/portfolio/static/js/main.32d2a166.chunk.js"
   },
   {
     "revision": "88fbd3d397ae3690d5f2",
     "url": "/portfolio/static/js/runtime-main.fb1b3dac.js"
   },
   {
-    "revision": "3eb92a48234820ea261fb0bac301c1ec",
-    "url": "/portfolio/static/media/Resume.3eb92a48.pdf"
+    "revision": "e3e40e35e54c6c3b2a22ddbf0a84570d",
+    "url": "/portfolio/static/media/RESUME.e3e40e35.pdf"
+  },
+  {
+    "revision": "959417586bdc877d039c38030d33a629",
+    "url": "/portfolio/static/media/cardgenerator.95941758.jpg"
   },
   {
     "revision": "30842f99bb2358f93aa1b6c014922aef",
@@ -44,8 +48,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/media/expressjs.0fb30b49.svg"
   },
   {
-    "revision": "827a1ef7ef0b87370f47ed5e2658b26e",
-    "url": "/portfolio/static/media/facerecognition.827a1ef7.png"
+    "revision": "a2106a90870242ebbb236f50b448f6e3",
+    "url": "/portfolio/static/media/facerecognition.a2106a90.png"
   },
   {
     "revision": "448ccda7e4e25ed738f8ea6f0a253cfb",
@@ -78,10 +82,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "aa07c46a597d86f5c49f70f957516423",
     "url": "/portfolio/static/media/reekoh_meeting2.aa07c46a.jpg"
-  },
-  {
-    "revision": "600c3457271dd7689e07788fe467275f",
-    "url": "/portfolio/static/media/robofriends.600c3457.png"
   },
   {
     "revision": "442cf57dbe6df489c853d82a4693d774",
