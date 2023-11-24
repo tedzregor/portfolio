@@ -22,16 +22,19 @@ class Skills extends Component {
           ) : (
             <i className={skill.icon} style={{ color: skill.color }}></i>
           )}
+
           <p className="Language" style={classes.Language}>
             {skill.skill}
           </p>
+
           {skill.level === 1 ? (
             <p></p>
           ) : skill.level === 2 ? (
-            <p></p>
-          ) : (
-            <p></p>
-          )}
+              <p></p>
+              ) : (
+                <p></p>
+              )
+          }
         </div>
       );
     });
