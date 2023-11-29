@@ -16,6 +16,13 @@ import reekoh_meeting from "../assets/images/reekoh_meeting.jpg"
 import reekoh_meeting2 from "../assets/images/reekoh_meeting2.jpg"
 import reekoh_group from "../assets/images/reekoh_group.jpg"
 
+import aero1 from "../assets/images/aero1.jpg"
+import aero2 from "../assets/images/aero2.jpg"
+
+import cmph1 from "../assets/images/cmph1.jpg"
+import cmph2 from "../assets/images/cmph2.jpg"
+
+
 
 export const imgs = [
     {
@@ -49,6 +56,26 @@ export const imgs = [
     {
       image: reekoh,
       details: "reekoh with team."
+    }
+    ,
+    {
+      image: aero1,
+      details: "aeroworx team"
+    }
+    ,
+    {
+      image: aero2,
+      details: "aeroworx team2"
+    }
+    ,
+    {
+      image: cmph1,
+      details: "cashmart 1"
+    }
+    ,
+    {
+      image: cmph2,
+      details: "cashmart 2"
     }
     ,
     {

@@ -34,30 +34,50 @@ const About = () => {
             </span>
             <p className="AboutContent" style={classes.Description}>
               <a
-                  href="aeroworx asia"
+                  href="https://cashmart.ph/"
                   rel="noreferrer noopener"
                   target="_blank"
-                  alt="SIT"
+                  alt="cmph"
+                  style={{ color: "#888888" }}
+                >Cashmart INC. /{" "} </a>
+                <a
+                  href="https://cashmart.ph/"
+                  rel="noreferrer noopener"
+                  target="_blank"
+                  alt="cm"
+                  style={{ color: "#888888" }}
+                >
+                  {" "}
+                Web Developer - Taguig City Philippines /
+                </a>{" "}
+                Sep 2023 - Present <br />
+            </p>
+            <p className="AboutContent" style={classes.Description}>
+              <a
+                  href="https://aeroworx-asia.com/"
+                  rel="noreferrer noopener"
+                  target="_blank"
+                  alt="aerow"
                   style={{ color: "#888888" }}
                 >Aeroworx Asia. /{" "} </a>
                 <a
-                  href="https://sensenit.com/"
+                  href="https://aeroworx-asia.com/"
                   rel="noreferrer noopener"
                   target="_blank"
-                  alt="SIT"
+                  alt="aero"
                   style={{ color: "#888888" }}
                 >
                   {" "}
                 Web Developer - Malate Manila Philippines /
                 </a>{" "}
-                Feb 2022 - Mar 2023 <br />
+                Jul 2022 - Feb 2023 <br />
             </p>
             <p className="AboutContent" style={classes.Description}>
               <a
                   href="https://reekoh.com/"
                   rel="noreferrer noopener"
                   target="_blank"
-                  alt="SIT"
+                  alt="REEKOH"
                   style={{ color: "#888888" }}
                 > REEKOH Inc. /{" "} </a>
                 <a
