@@ -39,7 +39,7 @@ const About = () => {
                   target="_blank"
                   alt="cmph"
                   style={{ color: "#888888" }}
-                >Cashmart INC. /{" "} </a>
+                >Cashmart Inc. /{" "} </a>
                 <a
                   href="https://cashmart.ph/"
                   rel="noreferrer noopener"
