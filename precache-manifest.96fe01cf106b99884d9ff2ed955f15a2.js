@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "4c0a52abb0465b5a734a813f9cb8a7b4",
+    "revision": "dd1fdab0eaff1330e2c0e07cb319b85a",
     "url": "/portfolio/index.html"
   },
   {
-    "revision": "aa27edd801de9d60aab4",
+    "revision": "fbd27b2facbf75decd32",
     "url": "/portfolio/static/css/2.036b41f9.chunk.css"
   },
   {
-    "revision": "b688d2d5771417e67af2",
+    "revision": "11c7a8be057bea50612e",
     "url": "/portfolio/static/css/main.a864764f.chunk.css"
   },
   {
-    "revision": "aa27edd801de9d60aab4",
-    "url": "/portfolio/static/js/2.2f1e6c23.chunk.js"
+    "revision": "fbd27b2facbf75decd32",
+    "url": "/portfolio/static/js/2.db03a36a.chunk.js"
   },
   {
-    "revision": "a4880d77eef7b7859db5f2cce31ea0d3",
-    "url": "/portfolio/static/js/2.2f1e6c23.chunk.js.LICENSE.txt"
+    "revision": "c64c486544348f10a6d6c716950bc223",
+    "url": "/portfolio/static/js/2.db03a36a.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "b688d2d5771417e67af2",
-    "url": "/portfolio/static/js/main.32d2a166.chunk.js"
+    "revision": "11c7a8be057bea50612e",
+    "url": "/portfolio/static/js/main.a0e2752e.chunk.js"
   },
   {
     "revision": "88fbd3d397ae3690d5f2",
@@ -32,12 +32,28 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/media/RESUME.e3e40e35.pdf"
   },
   {
+    "revision": "f3d5f2425aa53b590848c91bfb61afdc",
+    "url": "/portfolio/static/media/aero1.f3d5f242.jpg"
+  },
+  {
+    "revision": "c501c10ffa1f22ffcd4c8d9860d3c867",
+    "url": "/portfolio/static/media/aero2.c501c10f.jpg"
+  },
+  {
     "revision": "959417586bdc877d039c38030d33a629",
     "url": "/portfolio/static/media/cardgenerator.95941758.jpg"
   },
   {
     "revision": "30842f99bb2358f93aa1b6c014922aef",
     "url": "/portfolio/static/media/cert.30842f99.png"
+  },
+  {
+    "revision": "64ae2dd34932f867372eda654fe287c2",
+    "url": "/portfolio/static/media/cmph1.64ae2dd3.jpg"
+  },
+  {
+    "revision": "827945de22b3b2891c0a095bf076a1e1",
+    "url": "/portfolio/static/media/cmph2.827945de.jpg"
   },
   {
     "revision": "9c2bc7f8ba9c856a6f605b926585d2b6",

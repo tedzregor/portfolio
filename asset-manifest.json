@@ -1,22 +1,26 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.a864764f.chunk.css",
-    "main.js": "/portfolio/static/js/main.32d2a166.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.32d2a166.chunk.js.map",
+    "main.js": "/portfolio/static/js/main.a0e2752e.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.a0e2752e.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.fb1b3dac.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.fb1b3dac.js.map",
     "static/css/2.036b41f9.chunk.css": "/portfolio/static/css/2.036b41f9.chunk.css",
-    "static/js/2.2f1e6c23.chunk.js": "/portfolio/static/js/2.2f1e6c23.chunk.js",
-    "static/js/2.2f1e6c23.chunk.js.map": "/portfolio/static/js/2.2f1e6c23.chunk.js.map",
+    "static/js/2.db03a36a.chunk.js": "/portfolio/static/js/2.db03a36a.chunk.js",
+    "static/js/2.db03a36a.chunk.js.map": "/portfolio/static/js/2.db03a36a.chunk.js.map",
     "index.html": "/portfolio/index.html",
-    "precache-manifest.0a199b69dee6d5986dc5dfc38bcc44c8.js": "/portfolio/precache-manifest.0a199b69dee6d5986dc5dfc38bcc44c8.js",
+    "precache-manifest.96fe01cf106b99884d9ff2ed955f15a2.js": "/portfolio/precache-manifest.96fe01cf106b99884d9ff2ed955f15a2.js",
     "service-worker.js": "/portfolio/service-worker.js",
     "static/css/2.036b41f9.chunk.css.map": "/portfolio/static/css/2.036b41f9.chunk.css.map",
     "static/css/main.a864764f.chunk.css.map": "/portfolio/static/css/main.a864764f.chunk.css.map",
-    "static/js/2.2f1e6c23.chunk.js.LICENSE.txt": "/portfolio/static/js/2.2f1e6c23.chunk.js.LICENSE.txt",
+    "static/js/2.db03a36a.chunk.js.LICENSE.txt": "/portfolio/static/js/2.db03a36a.chunk.js.LICENSE.txt",
     "static/media/RESUME.pdf": "/portfolio/static/media/RESUME.e3e40e35.pdf",
+    "static/media/aero1.jpg": "/portfolio/static/media/aero1.f3d5f242.jpg",
+    "static/media/aero2.jpg": "/portfolio/static/media/aero2.c501c10f.jpg",
     "static/media/cardgenerator.jpg": "/portfolio/static/media/cardgenerator.95941758.jpg",
     "static/media/cert.png": "/portfolio/static/media/cert.30842f99.png",
+    "static/media/cmph1.jpg": "/portfolio/static/media/cmph1.64ae2dd3.jpg",
+    "static/media/cmph2.jpg": "/portfolio/static/media/cmph2.827945de.jpg",
     "static/media/contact.css": "/portfolio/static/media/coffee.9c2bc7f8.jpg",
     "static/media/expressjs.svg": "/portfolio/static/media/expressjs.0fb30b49.svg",
     "static/media/facerecognition.png": "/portfolio/static/media/facerecognition.a2106a90.png",
@@ -38,8 +42,8 @@
   "entrypoints": [
     "static/js/runtime-main.fb1b3dac.js",
     "static/css/2.036b41f9.chunk.css",
-    "static/js/2.2f1e6c23.chunk.js",
+    "static/js/2.db03a36a.chunk.js",
     "static/css/main.a864764f.chunk.css",
-    "static/js/main.32d2a166.chunk.js"
+    "static/js/main.a0e2752e.chunk.js"
   ]
 }
