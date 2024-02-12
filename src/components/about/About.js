@@ -25,33 +25,13 @@ const About = () => {
               Introduction
             </span>
             <p className="AboutContent" style={classes.Description}>
-              Hi! I'm Ted a Software Developer from Philippines, with demonstrated history of working in the software development industry. I want to step up and embrace challenges to learn more about the fast growing web technology and become a senior developer someday in global fields.
+              Hi! I'm Ted a Software Developer from Philippines, with demonstrated history of working in the software development industry. I want to step up and embrace challenges to learn more about the fast growing web technology and become a true leader someday in this field.
             </p>
           </div>
           <div>
             <span className="Label" style={classes.Label}>
               Work Experience
             </span>
-            <p className="AboutContent" style={classes.Description}>
-              <a
-                  href="https://cashmart.ph/"
-                  rel="noreferrer noopener"
-                  target="_blank"
-                  alt="cmph"
-                  style={{ color: "#888888" }}
-                >Cashmart Inc. /{" "} </a>
-                <a
-                  href="https://cashmart.ph/"
-                  rel="noreferrer noopener"
-                  target="_blank"
-                  alt="cm"
-                  style={{ color: "#888888" }}
-                >
-                  {" "}
-                Web Developer - Taguig City Philippines /
-                </a>{" "}
-                Sep 2023 - Present <br />
-            </p>
             <p className="AboutContent" style={classes.Description}>
               <a
                   href="https://aeroworx-asia.com/"
@@ -90,7 +70,7 @@ const About = () => {
                   {" "}
                 Jr. Software Engineer - Makati City Philippines /
                 </a>{" "}
-                Apr 2019 - Oct 2019<br />
+                Apr 2019 - Oct 2020<br />
             </p>
             <p className="AboutContent" style={classes.Description}>
               <a
