@@ -70,7 +70,7 @@ const About = () => {
                   {" "}
                 Jr. Software Engineer - Makati City Philippines /
                 </a>{" "}
-                Apr 2019 - Oct 2020<br />
+                Apr 2019 - Oct 2021<br />
             </p>
             <p className="AboutContent" style={classes.Description}>
               <a
