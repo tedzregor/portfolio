@@ -34,23 +34,23 @@ const About = () => {
             </span>
             <p className="AboutContent" style={classes.Description}>
               <a
-                  href="https://aeroworx-asia.com/"
+                  href="https://pinoyofwinsurance.ph/"
                   rel="noreferrer noopener"
                   target="_blank"
-                  alt="aerow"
+                  alt="poi"
                   style={{ color: "#888888" }}
-                >Aeroworx Asia. /{" "} </a>
+                >PAMICO /{" "} </a>
                 <a
-                  href="https://aeroworx-asia.com/"
+                  href="https://pinoyofwinsurance.ph/"
                   rel="noreferrer noopener"
                   target="_blank"
-                  alt="aero"
+                  alt="poi"
                   style={{ color: "#888888" }}
                 >
                   {" "}
-                Web Developer - Malate Manila Philippines /
+                Web Developer - Ortigas Pasig City Philippines /
                 </a>{" "}
-                Jul 2022 - Feb 2023 <br />
+                Jul 2022 - Present <br />
             </p>
             <p className="AboutContent" style={classes.Description}>
               <a
