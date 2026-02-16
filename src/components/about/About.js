@@ -34,6 +34,26 @@ const About = () => {
             </span>
             <p className="AboutContent" style={classes.Description}>
               <a
+                  href="https://betrnk-tours.com/"
+                  rel="noreferrer noopener"
+                  target="_blank"
+                  alt="poi"
+                  style={{ color: "#888888" }}
+                >BETRNK TOURS /{" "} </a>
+                <a
+                  href="https://betrnk-tours.com/"
+                  rel="noreferrer noopener"
+                  target="_blank"
+                  alt="poi"
+                  style={{ color: "#888888" }}
+                >
+                  {" "}
+                Back-End Engineer - BGC Taguig Philippines /
+                </a>{" "}
+                Sep 2025 - Present <br />
+            </p>
+            <p className="AboutContent" style={classes.Description}>
+              <a
                   href="https://pinoyofwinsurance.ph/"
                   rel="noreferrer noopener"
                   target="_blank"
@@ -50,7 +70,27 @@ const About = () => {
                   {" "}
                 Web Developer - Ortigas Pasig City Philippines /
                 </a>{" "}
-                Jul 2022 - Present <br />
+                Mar 2023 - Sep 2025 <br />
+            </p>
+            <p className="AboutContent" style={classes.Description}>
+              <a
+                  href="https://aeroworx-asia.com/"
+                  rel="noreferrer noopener"
+                  target="_blank"
+                  alt="poi"
+                  style={{ color: "#888888" }}
+                >AEROWORX CORP. /{" "} </a>
+                <a
+                  href="https://aeroworx-asia.com/"
+                  rel="noreferrer noopener"
+                  target="_blank"
+                  alt="poi"
+                  style={{ color: "#888888" }}
+                >
+                  {" "}
+                Web Developer - LEON GUINTO ST. MALATE MANILA /
+                </a>{" "}
+                Jul 2022 - Feb 2023 <br />
             </p>
             <p className="AboutContent" style={classes.Description}>
               <a
@@ -70,7 +110,7 @@ const About = () => {
                   {" "}
                 Jr. Software Engineer - Makati City Philippines /
                 </a>{" "}
-                Apr 2019 - Oct 2020<br />
+                Apr 2019 - Oct 2022<br />
             </p>
             <p className="AboutContent" style={classes.Description}>
               <a
