@@ -1,3 +1,6 @@
+import dentalhealthpartners from "../assets/images/dentalhealthpartners.png";
+import pinoyofwinsurance from "../assets/images/pinoyofwinsurance.png";
+import tallowph from "../assets/images/tallowph.png";
 import myportfolio from "../assets/images/portfolio.png";
 import cardgenerator from "../assets/images/cardgenerator.jpg";
 import expressjs from "../assets/images/expressjs.svg";
@@ -89,6 +92,30 @@ export const imgs = [
 ]
 
 export const works = [
+    {
+      image: dentalhealthpartners,
+      name: "Health Partners Dental",
+      link: "https://www.healthpartnersdental.com/",
+      about:
+        "Health Partners Dental standard website built on PHP Laravel and hosted on a WHM cPanel",
+      githublink: "https://github.com/"
+    },
+    {
+      image: pinoyofwinsurance,
+      name: "Pinoy OFW Insurance",
+      link: "https://pinoyofwinsurance.ph/",
+      about:
+        "Pinoy OFW insurance is a web application that you can buy insurance policy online through payment gateway API, built on PHP Laravel, MySQL Database and hosted on a VPS using Apache2 and ubuntu linux server",
+      githublink: "https://github.com/"
+    },
+    {
+      image: tallowph,
+      name: "Tallow PH",
+      link: "https://tallowph.com/",
+      about:
+        "Tallow PH is an e-commerce website built on PHP Laravel, MySQL Database and hosted on a VPS using Apache2 and ubuntu linux server",
+      githublink: "https://github.com/"
+    },
     {
       image: myportfolio,
       name: "My Portfolio",
