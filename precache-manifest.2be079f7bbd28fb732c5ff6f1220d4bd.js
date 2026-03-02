@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "f9c1a0dbfdf1b02f813fb3553cf1014c",
+    "revision": "f1114546b854b85d0c300bf8ca5815ac",
     "url": "/portfolio/index.html"
   },
   {
-    "revision": "9e4e7d996121e17d2f42",
+    "revision": "668eac46b988af1d8c9e",
     "url": "/portfolio/static/css/2.a94b31b9.chunk.css"
   },
   {
-    "revision": "68ffe20090cd213e03c2",
+    "revision": "5a9023704d36dc1a944b",
     "url": "/portfolio/static/css/main.f78a87bd.chunk.css"
   },
   {
-    "revision": "9e4e7d996121e17d2f42",
-    "url": "/portfolio/static/js/2.4f997f2c.chunk.js"
+    "revision": "668eac46b988af1d8c9e",
+    "url": "/portfolio/static/js/2.ee07ab68.chunk.js"
   },
   {
-    "revision": "68ffe20090cd213e03c2",
-    "url": "/portfolio/static/js/main.bed401a8.chunk.js"
+    "revision": "5a9023704d36dc1a944b",
+    "url": "/portfolio/static/js/main.912f183e.chunk.js"
   },
   {
     "revision": "53ebc025fca807d4dbea",
@@ -56,6 +56,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/media/coffee.9c2bc7f8.jpg"
   },
   {
+    "revision": "3995bbb5639069772a8bbeb48fbf62bb",
+    "url": "/portfolio/static/media/dentalhealthpartners.3995bbb5.png"
+  },
+  {
     "revision": "0fb30b49da79da6979871081a23bfd53",
     "url": "/portfolio/static/media/expressjs.0fb30b49.svg"
   },
@@ -74,6 +78,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "da26917b64ee76074c9910767889bdb5",
     "url": "/portfolio/static/media/my_image.da26917b.jpg"
+  },
+  {
+    "revision": "7dc1384d538b6b6b3c6ebc4715f32daa",
+    "url": "/portfolio/static/media/pinoyofwinsurance.7dc1384d.png"
   },
   {
     "revision": "2f43116572b62d4d438bb7556162acf0",
@@ -106,6 +114,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "1f39375913197c265623a2713d65a5cd",
     "url": "/portfolio/static/media/sit_id.1f393759.jpg"
+  },
+  {
+    "revision": "97b7cafe3737aedb7a012345c705a483",
+    "url": "/portfolio/static/media/tallowph.97b7cafe.png"
   },
   {
     "revision": "8f820e0485cf2bbde7dd4cce8d4bff9d",
