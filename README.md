@@ -22,7 +22,7 @@ Deployment to github pages<br />
 1. sudo npm install -g gh-pages --save-dev <br />
 2. sudo git config --global user.name "Teddy Regorgo Dumagat"
 3. sudo git config --global user.email "your@email.com"
-4. sudo npm run deploy
+4. sudo npm run deploy (if error exist try "npm run deploy")
 5. Get token from git hub for password. Settings > Developer Settings > Personal Access tokens.
 6. In case github pages not updating even published sucessfully try access the link below
       https://tedzregor.github.io/portfolio/index.html
