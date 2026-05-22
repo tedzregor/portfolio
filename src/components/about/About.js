@@ -34,14 +34,14 @@ const About = () => {
             </span>
             <p className="AboutContent" style={classes.Description}>
               <a
-                  href="https://betrnk-tours.com/"
+                  href="/"
                   rel="noreferrer noopener"
                   target="_blank"
                   alt="poi"
                   style={{ color: "#888888" }}
-                >BETRNK TOURS /{" "} </a>
+                >B-TICKET /{" "} </a>
                 <a
-                  href="https://betrnk-tours.com/"
+                  href="/"
                   rel="noreferrer noopener"
                   target="_blank"
                   alt="poi"
