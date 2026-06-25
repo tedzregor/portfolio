@@ -34,26 +34,6 @@ const About = () => {
             </span>
             <p className="AboutContent" style={classes.Description}>
               <a
-                  href="/"
-                  rel="noreferrer noopener"
-                  target="_blank"
-                  alt="poi"
-                  style={{ color: "#888888" }}
-                >B-TICKET /{" "} </a>
-                <a
-                  href="/"
-                  rel="noreferrer noopener"
-                  target="_blank"
-                  alt="poi"
-                  style={{ color: "#888888" }}
-                >
-                  {" "}
-                Back-End Engineer - BGC Taguig Philippines /
-                </a>{" "}
-                Sep 2025 - Present <br />
-            </p>
-            <p className="AboutContent" style={classes.Description}>
-              <a
                   href="https://pinoyofwinsurance.ph/"
                   rel="noreferrer noopener"
                   target="_blank"
