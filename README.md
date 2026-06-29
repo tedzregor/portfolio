@@ -7,6 +7,12 @@ In the project directory, you can run:
 ### `nvm install v16.20.2`
 This will install the node version v16.20.2
 
+### `nvm ls`
+This list installed node version
+
+### `nvm use v16.20.2`
+This will change default version v16.20.2 node to be used.
+
 ### `npm install`
 
 Pakages will be install.
