@@ -4,6 +4,9 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 In the project directory, you can run:
 
+### `nvm install v16.20.2`
+This will install the node version v16.20.2
+
 ### `npm install`
 
 Pakages will be install.
